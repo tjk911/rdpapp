@@ -1,0 +1,10 @@
+Wed, 05 Feb 2014 14:16:57 -0600
+README.rdoc	Mon, 03 Feb 2014 13:15:27 -0600
+app/controllers/application_controller.rb	Mon, 03 Feb 2014 13:15:27 -0600
+app/controllers/static_pages_controller.rb	Mon, 03 Feb 2014 13:55:44 -0600
+app/controllers/users_controller.rb	Mon, 03 Feb 2014 13:21:46 -0600
+app/helpers/application_helper.rb	Mon, 03 Feb 2014 13:15:27 -0600
+app/helpers/static_pages_helper.rb	Mon, 03 Feb 2014 13:35:08 -0600
+app/helpers/users_helper.rb	Mon, 03 Feb 2014 13:21:47 -0600
+app/models/recipient.rb	Wed, 05 Feb 2014 11:56:45 -0600
+app/models/user.rb	Wed, 05 Feb 2014 13:27:24 -0600

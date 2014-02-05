@@ -25,7 +25,6 @@ describe Recipient do
 		before { @recipient.year = " " }
 		it { should_not be_valid }
 	end
-
 	
 	describe "when year is out of range" do
 		it { should validate_numericality_of(:year).is_greater_than_or_equal_to(2010) }
