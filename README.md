@@ -4,10 +4,10 @@ Goal of the app is for a basic CMS or hub that allows quick deployment of longfo
 
 == Basic data structure
 
-User 		-> Projects
-Projects	-> Ads
+*User 		-> Projects
+*Projects	-> Ads
 			-> Chapters
-Chapters 	-> Subhead
+*Chapters 	-> Subhead
 			-> Chapter-head photo
 			-> Text
 			-> Breakout
