@@ -48,3 +48,7 @@ Ad delivery is fairly basic for now, with the basic goal of mimicking what was d
 == Video delivery
 
 Current methods of delivering video is through iframes (yuck), with some styling to make the iframes responsive. Functional, but not the most effective, and should explore ways to deliver video and meter but keep it seamless (parallax videos for example).
+
+== DataViz
+
+Right now, basic hardcoding. Plan on looking into integrating tools (HighCharts for basic, D3js for advanced, Leaflet for mapping, Timeline.js for timelines)
