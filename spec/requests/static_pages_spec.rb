@@ -17,19 +17,6 @@ describe "Static pages" do
     end
   end
 
-  describe "Submission page" do
-
-  	it "should have the content 'Submit a nomination'" do
-  		visit submit_url
-  		expect(page).to have_content('Submit a nomination')
-  	end
-
-  	it "should have the title 'Submit'" do
-      visit '/static_pages/submit'
-      expect(page).to have_title("#{base_title} | Submit")
-    end
-  end
-
   describe "Advertise page" do
 
   	it "should have the content 'Advertise with us'" do

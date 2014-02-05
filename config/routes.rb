@@ -1,9 +1,7 @@
 Rdpapp::Application.routes.draw do
   root 'static_pages#home'
   get "static_pages/home"
-  get "static_pages/submit"
   get "static_pages/advertise"
-  match "/submit", to: "static_pages#submit", via: 'get'
   match "/advertise", to: "static_pages#advertise", via: 'get'
   resources :recipients
   resources :users
