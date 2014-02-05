@@ -4,6 +4,7 @@ Goal of the app is for a basic CMS or hub that allows quick deployment of longfo
 
 == Basic structure
 
+```
 User
  |
  +-- Projects
@@ -22,7 +23,7 @@ User
 *similar to sctimes.com/5under40
 **similar to sctimes.com/anorexia
 ***chapters dynamically populate top nav/magellan nav
-
+```
 
 == Basic info
 
