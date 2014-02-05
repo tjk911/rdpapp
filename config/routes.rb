@@ -1,10 +1,10 @@
 Rdpapp::Application.routes.draw do
-  root 'static_pages#home'
-  get "static_pages/home"
-  get "static_pages/advertise"
-  match "/advertise", to: "static_pages#advertise", via: 'get'
-  resources :recipients
   resources :users
+  root  'static_pages#home'
+  get   "static_pages/home"
+  get   "static_pages/advertise"
+  match "/advertise",   to: "static_pages#advertise",   via: 'get'
+  match "/signup",      to: "users#new",                via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
