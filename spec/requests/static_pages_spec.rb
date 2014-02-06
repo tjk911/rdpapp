@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Static pages" do
 
-	let(:base_title){'Times Media 5 Under 40'}
+	let(:base_title){'SCTimes projects'}
 
   describe "Home page" do
 

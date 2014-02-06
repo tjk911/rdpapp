@@ -52,3 +52,6 @@ Current methods of delivering video is through iframes (yuck), with some styling
 == DataViz
 
 Right now, basic hardcoding. Plan on looking into integrating tools (HighCharts for basic, D3js for advanced, Leaflet for mapping, Timeline.js for timelines)
+
+== Progress/Self note
+Completed sign up page, refresh memory on 7.2.3 for Form HTML.
