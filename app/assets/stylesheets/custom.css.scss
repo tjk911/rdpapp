@@ -1,5 +1,7 @@
 @import "foundation";
 @import "foundation/components/dropdown";
+$include-html-label-classes: $include-html-classes;
+
 
 /* -----------------------------------------
     mixins, variables, etc. 
