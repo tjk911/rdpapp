@@ -55,6 +55,6 @@ Right now, basic hardcoding. Plan on looking into integrating tools (HighCharts 
 
 == Progress/Self note
 * ~~Completed sign-up. Check 7.6~~
-* Setting up sign-in-out
+* Flashed warning, figure 8.6
 * Having local server errors, using Rubygem Thin to overcome. Should be related to development environment and "config.force_ssl = true"
 * (thin start--ssl)
