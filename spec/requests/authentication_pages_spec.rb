@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe "Authentication" do
+describe "authentication" do
 
 	subject { page }
 
-	describe "Signin" do
+	describe "signin" do
 		before { visit signin_path }
 
 		it { should have_title('Sign in') }
@@ -15,6 +15,12 @@ describe "Authentication" do
 
 			it { should have_title('Sign in') }
 			it { should have_selector('div.alert-box.warning') }
+
+			describe "after vising another page" do
+				before { click_link "Home" }
+
+				it { should_not have_selector('div.alert-box.warning') }
+			end
 		end
 
 		describe "with valid information" do
