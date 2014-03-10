@@ -21,7 +21,7 @@
           <a href="#">Account</a>
           <ul class="dropdown">
             <li><%= link_to "Profile", current_user %></li>
-            <li><%= link_to "Settings", edit_user_path %></li>
+            <li><%= link_to "Settings", edit_user_path(current_user) %></li>
             <li class="divider"></li>
             <li><%= link_to "Sign out", signout_path, method: "delete" %></li>
           </ul>
