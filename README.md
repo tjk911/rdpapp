@@ -2,6 +2,8 @@
 
 Goal of the app is for a basic CMS or hub that allows quick deployment of longform responsive design interactive packages.
 
+Update: Here comes the tricky part, forking out from Hartl's "micropost" app into the RDP structure I have in mind
+
 == Basic structure
 
 ```
